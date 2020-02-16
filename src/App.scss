@@ -1,1 +1,20 @@
 @import 'bootstrap';
+
+.todo-container {
+    margin: 10% 0;
+
+    input {
+        margin-right: 8px;
+        border-radius: 3px;
+        min-width: 250px;
+    }
+
+    button {
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        border-radius: 5px;
+    }
+
+    .item-list {
+        margin-top: 16px;
+    }
+}
